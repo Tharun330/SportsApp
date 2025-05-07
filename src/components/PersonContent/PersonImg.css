@@ -1,0 +1,21 @@
+.personImg {
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.imgContent{
+    display: flex;
+    animation: from_left_to_right .5s ease-out forwards;
+}
+@keyframes from_left_to_right {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(60px);
+        opacity: 1;
+
+    }
+}

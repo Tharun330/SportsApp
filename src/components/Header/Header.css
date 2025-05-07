@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 5px;
+  color: #333;
+  border-radius: 10px;
+  margin-top: -20px;
+  animation: slide-from-down-to-up .5s ease-out forwards;
+  
+}
+
+@keyframes slide-from-down-to-up {
+
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100%{
+      transform:  translateY(0px);
+      opacity: 1;
+    }
+    
+}
+.navOption ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navOption li{ 
+    margin: 1rem;
+}
+
+.brand{
+    margin: 0 1rem;
+    font-size: x-large;
+    font-weight: 600;
+}

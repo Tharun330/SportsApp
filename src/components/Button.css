@@ -1,0 +1,17 @@
+.button {
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    height: 70px;
+    margin: 10px 0;
+    border-right: none;
+}
+
+.button:focus,button:focus-visible {
+    background-color: whitesmoke;
+    color: #242424;
+    box-shadow:  2px 4px 10px;
+    outline: none;
+}
+.button:hover {
+    outline: none !important;
+}
