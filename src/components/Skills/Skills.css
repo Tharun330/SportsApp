@@ -1,0 +1,23 @@
+.skillsBox {
+     background-color: whitesmoke;
+     padding: 3rem;
+     width: 50rem;
+     margin-top: 4rem;
+     border-radius: 10px;
+     overflow: auto;
+     display: flex;
+     flex-direction: row;
+     scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;  
+
+}
+.skillsBox::-webkit-scrollbar {
+     display: none;               /* Chrome, Safari, Opera */
+   }
+
+.box{
+     margin: 10px 20px;
+}
+h4 {
+     opacity: .7;
+}
