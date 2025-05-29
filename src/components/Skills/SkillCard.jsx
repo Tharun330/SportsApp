@@ -1,5 +1,6 @@
 import React from 'react';
-import './SkillCard.css'
+import './SkillCard.css';
+import {motion} from 'framer-motion'
 
 function SkillCard({ skill, range, fill }) {
     return (
@@ -11,7 +12,10 @@ function SkillCard({ skill, range, fill }) {
 
                 <p>{range}</p>
                 <div className="progress-bar" >
-                    <div className="fill"style={{width: fill}} ></div>
+                    <motion.div className="fill" transition={{
+                        duration:.3,
+                        type: 'spring'
+                    }} style={{width: fill}} ></motion.div>
                 </div>
 
             </div>

@@ -1,0 +1,31 @@
+.headingSection {
+
+    background-color: #242424;
+    height: max-content;
+    color: whitesmoke;
+    padding: 15rem;
+    border-radius: 10px;
+
+}
+
+.headingSection h1 {
+    text-align: center;
+}
+
+.contactPage {
+    margin: 1rem;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aboutSection {
+    height: max-content;
+    padding: 3rem;
+}
+.aboutSection p{
+    text-align: left;
+}
