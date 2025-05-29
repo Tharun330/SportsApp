@@ -4,7 +4,7 @@ import './PersonImg.css'
 function PersonImg() {
     return ( 
         <div className='imgContent'>
-          <img className='personImg' src='src\assets\pictures\christian-buehner-DItYlc26zVI-unsplash.jpg'></img>
+          <img className='personImg' src='src\assets\pictures\portfolioSix.PNG.JPG'></img>
 
         </div>
      );

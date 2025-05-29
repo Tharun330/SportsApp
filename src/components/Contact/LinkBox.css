@@ -1,0 +1,11 @@
+.linkBox {
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem 2rem;
+    width: max-content;
+    color: whitesmoke;
+    padding: 3rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+.projectCard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.projectName {
+    display: flex;
+    justify-content: space-between;
+    font-Family: Poppins, sans-serif;
+    font-Weight: 600;
+    color: #242424;
+    font-size: 3rem;
+}
+
+.projectCard img {
+    height: 20rem;
+    width: 40rem;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.projectPic {
+    background-color: rgb(254, 231, 22);
+    height: max-content;
+    width: max-content;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.projectPic p {
+
+    color: #242424;
+    font-size: 3rem;
+    font-Family: Poppins, sans-serif;
+    font-Weight: 600;
+    margin: 10px;
+    text-align: left;
+
+}
+
+.projectDescription {
+    position: relative;
+    bottom: -300px;
+    width: 20rem;
+    height: max-content;
+    color: whitesmoke;
+    text-align: left;
+    margin-right:3rem ;
+}

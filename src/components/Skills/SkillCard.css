@@ -4,10 +4,10 @@
     justify-content: space-around;
     padding: 3px 5px 8px 5px;
     width: 250px;
-    background-color: rgb(212, 212, 212);
+    background-color: white;
     border-radius: 10px;
     margin: 20px 5px;
-    box-shadow: 2px 4px 8px;
+    box-shadow: 3px 6px 9px lightslategray;
 }
 
 .skillName {

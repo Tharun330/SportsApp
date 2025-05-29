@@ -1,0 +1,48 @@
+.connectPage {
+    background-color: rgb(128, 164, 255);
+    padding: 4rem 12rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+
+.connectPage p {
+    font-Family: Poppins, sans-serif;
+    font-Weight: 500;
+    color: #242424;
+    font-size: 2.5rem;
+
+    margin: 15px;
+}
+
+.input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: max-content;
+    margin: 15px;
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#mail {
+    color: #242424;
+    font-size: 1rem;
+}
+
+.connectLinks {
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
