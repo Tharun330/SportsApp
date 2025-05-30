@@ -8,8 +8,8 @@ import './ProjectPage.css';
 function ProjectPage() {
     let project = {
         project1: {
-            img1: "src/assets/pictures/image.png",
-            img2: "src/assets/pictures/WhatsApp Image 2025-05-28 at 3.21.47 PM.jpeg",
+            img1: "public/assets/pictures/image.png",
+            img2: "public/assets/pictures/WhatsApp Image 2025-05-28 at 3.21.47 PM.jpeg",
             direction: "row",
             name: "StayFinder",
             number: "01",
@@ -17,16 +17,16 @@ function ProjectPage() {
 
         },
         project2: {
-            img1: "src/assets/pictures/Screenshot 2025-05-28 230027.png",
-            img2: "src/assets/pictures/Screenshot 2025-05-28 230315.png",
+            img1: "public/assets/pictures/Screenshot 2025-05-28 230027.png",
+            img2: "public/assets/pictures/Screenshot 2025-05-28 230315.png",
             direction: "row-reverse",
             name: "Stockify",
             number: "02",
             description: "Stockify is stock marking web application which will used to sell and buy stocks, and also day trading options for customer"
         },
         project3: {
-            img1: "src/assets/pictures/Screenshot 2025-05-28 234824.png",
-            img2: "src/assets/pictures/Screenshot 2025-05-28 230315.png",
+            img1: "public/assets/pictures/Screenshot 2025-05-28 234824.png",
+            img2: "public/assets/pictures/Screenshot 2025-05-28 230315.png",
             direction: "row",
             name: "Distance Calculator",
             number: "03",
