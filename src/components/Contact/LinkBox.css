@@ -9,3 +9,10 @@
     padding: 3rem;
     border-radius: 10px;
 }
+
+@media (max-width:845px) {
+    .linkBox {
+        margin: 1rem 0;
+        padding: 1rem .5rem;
+    }
+}

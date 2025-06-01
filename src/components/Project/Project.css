@@ -3,7 +3,7 @@
     justify-content: space-between;
     margin-top: 2rem;
     padding-bottom: 2rem;
-    
+
 }
 
 .projectName {
@@ -48,5 +48,55 @@
     height: max-content;
     color: whitesmoke;
     text-align: left;
-    margin-right:3rem ;
+    margin-right: 3rem;
+}
+
+@media (max-width:1220px) {
+    .projectCard {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+
+    }
+
+    .projectCard img {
+        height: auto;
+        width: 20rem;
+    }
+
+    .projectDescription {
+        position: relative;
+        bottom: -10px;
+        width: auto;
+
+    }
+
+
+}
+
+@media (max-width:665px) {
+    .projectPic {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+
+    }
+
+    .projectCard img {
+        margin: 10px;
+    }
+
+    .projectName {
+
+        justify-content: center;
+        flex-direction: column;
+        width: max-content;
+    }
+
+    .projectName p {
+        font-size: 2rem;
+        display: inline-block;
+        width: max-content;
+
+    }
 }

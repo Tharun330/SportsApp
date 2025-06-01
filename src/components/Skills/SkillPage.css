@@ -4,17 +4,61 @@
     padding: 2rem;
     margin-top: 4rem;
     justify-content: center;
+    align-items: center;
     background-color: rgb(66, 157, 249);
-     border-radius: 10px;
-   
-   
+    border-radius: 10px;
+
+
 }
 
-.skillCategory{
+.skillCategory {
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 4rem;
     padding: 4rem 0 4rem 2rem;
+}
+
+@media (max-width:1220px) {
+     .skillContent {
+
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin-top: 4rem;
+        align-content: center;
+        background-color: rgb(66, 157, 249);
+        border-radius: 10px;
+
+
+    }
+     .skillCategory {
+        flex-direction: row;
+        padding: 0;
+        
+    }
+
+}
+
+@media (max-width:845px) {
+    .skillContent {
+
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin-top: 4rem;
+        align-content: center;
+        background-color: rgb(66, 157, 249);
+        border-radius: 10px;
+
+
+    }
+
+    .skillCategory {
+        flex-direction: row;
+        padding: 0;
+        
+    }
+
 }

@@ -5,6 +5,8 @@
     color: whitesmoke;
     padding: 15rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -26,6 +28,31 @@
     height: max-content;
     padding: 3rem;
 }
-.aboutSection p{
+
+.aboutSection p {
     text-align: left;
+}
+
+@media (max-width:1350px) {
+    .contactLinks {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:845px) {
+    .headingSection h1 {
+
+        font-size: 2rem;
+    }
+
+    .contactPage {
+        margin: 0;
+    }
+
+    .headingSection {
+        padding: 8rem 5rem;
+    }
+
 }

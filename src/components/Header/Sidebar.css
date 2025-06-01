@@ -1,0 +1,38 @@
+.sidebar {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+
+
+}
+
+.sidebar ul {
+    padding: 0px;
+}
+
+.sidebar li {
+    list-style: none;
+   height: 4rem;
+ 
+   
+}
+
+@media (max-width:750px) {
+    .sidebar {
+
+        padding: 2rem ;
+        width: 10rem;
+        right: 0;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width:400px) {
+    .sidebar {
+
+       
+        margin-right: 0rem;
+    }
+}
