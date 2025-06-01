@@ -2,20 +2,54 @@
     height: 500px;
     width: 450px;
     margin-top: 50px;
-    border-radius: 50px;
+    border-radius: 30px;
+
+   
+    
 }
-.imgContent{
+
+.imgContent {
     display: flex;
     animation: from_left_to_right .5s ease-out forwards;
+    
+   
+
 }
+
 @keyframes from_left_to_right {
-    0%{
+    0% {
         transform: translateX(-100px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(60px);
         opacity: 1;
 
     }
+}
+
+@media (max-width:1200px) {
+
+    @keyframes from_left_to_right {
+        0% {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+
+        }
+
+    }
+
+    .personImg {
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+
 }

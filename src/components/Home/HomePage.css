@@ -1,0 +1,17 @@
+.personContent {
+    display: flex;
+
+
+}
+
+@media (max-width:1230px) {
+   .personContent {
+   flex-direction: column;
+    padding: auto;
+    display: flex;
+    justify-content: space-around !important;
+
+
+}
+    
+}

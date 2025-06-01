@@ -6,12 +6,44 @@
     border-right: none;
 }
 
-.button:focus,button:focus-visible {
+.button:focus,
+button:focus-visible {
     background-color: whitesmoke;
     color: #242424;
-    box-shadow:  2px 4px 10px;
+    box-shadow: 2px 4px 10px;
     outline: none;
 }
+
 .button:hover {
     outline: none !important;
+}
+@media (max-width:1220px) {
+     .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        width: 10rem;
+        padding: 10px 2rem;
+        border-radius: 10px 10px 0 0px;
+        margin: 0 10px;
+        font-size: smaller;
+
+    }
+
+}
+
+@media (max-width:845px) {
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: auto;
+        padding: 8px;
+        border-radius: 10px 10px 0 0px;
+        margin: 0 2px;
+        font-size: smaller;
+
+    }
 }

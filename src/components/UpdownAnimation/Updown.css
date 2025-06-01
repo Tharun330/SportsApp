@@ -1,6 +1,7 @@
 .scrollDown {
     display: inline-block;
     animation: motion_updown 1.2s ease-out infinite;
+    margin-top: 40px;
 }
 
 @keyframes motion_updown {

@@ -3,7 +3,7 @@ import './PersonIntro.css'
 
 function PersonIntro() {
     return (
-        <div className='contentBody'>
+        <div className='contentBody container-fluid'>
             <div >
                 <h3>Hello <span id='hand'>👋</span></h3>
                 <h1>I'm Tharun Gudla</h1>
